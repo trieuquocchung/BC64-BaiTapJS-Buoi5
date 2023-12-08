@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h2>Bài Tập Quản Lí Tuyển Sinh</h2>
+      <div class="form__top">
+        <div class="form-group">
+          <label for="">Vui lòng nhập số điểm chuẩn</label>
+          <input
+            type="text"
+            class="form-control"
+            name=""
+            id="diemChuan"
+            aria-describedby="helpId"
+            placeholder="Điểm chuẩn"
+          />
+        </div>
+        <div class="form-group">
+          <label for="">Vui lòng chọn khu vực ưu tiên</label>
+          <select class="form-control" id="khuVuc">
+            <option id="khongCoKV" value="khongCoKV">Chọn Khu Vực</option>
+            <option id="khuVucA" value="khuVucA">A</option>
+            <option id="khuVucB" value="khuVucB">B</option>
+            <option id="khuVucC" value="khuVucC">C</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="">Vui lòng chọn đối tượng ưu tiên</label>
+          <select class="form-control" id="doiTuong">
+            <option id="khongCoDT" value="khongCoDT">Chọn Đối Tượng</option>
+            <option id="doiTuong1" value="doiTuong1">1</option>
+            <option id="doiTuong2" value="doiTuong2">2</option>
+            <option id="doiTuong3" value="doiTuong3">3</option>
+          </select>
+        </div>
+      </div>
+      <div class="form__bottom">
+        <div class="form-group">
+          <label for=""></label>
+          <input
+            type="text"
+            name=""
+            id="diemMon1"
+            class="form-control"
+            placeholder="Nhập điểm môn thứ 1"
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for=""></label>
+          <input
+            type="text"
+            name=""
+            id="diemMon2"
+            class="form-control"
+            placeholder="Nhập điểm môn thứ 2"
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for=""></label>
+          <input
+            type="text"
+            name=""
+            id="diemMon3"
+            class="form-control"
+            placeholder="Nhập điểm môn thứ 3"
+            aria-describedby="helpId"
+          />
+        </div>
+      </div>
+      <button class="btn btn-primary" id="btn1">Tính Điểm</button>
+      <div class="bg-primary text-white p-3" id="kq1"></div>
+    </div>
+    <div class="container mt-3">
+      <h2>Bài Tập Tính Tiền Điện</h2>
+      <div class="form__top">
+        <div class="form-group">
+          <label for="">Vui lòng nhập họ tên</label>
+          <input
+            type="text"
+            class="form-control"
+            name=""
+            id="hoTen"
+            aria-describedby="helpId"
+            placeholder="Họ Và Tên ?"
+          />
+        </div>
+        <div class="form-group">
+          <label for="">Vui lòng nhập số KW</label>
+          <input
+            type="text"
+            class="form-control"
+            name=""
+            id="soKW"
+            aria-describedby="helpId"
+            placeholder="Nhập KW"
+          />
+        </div>
+      </div>
+      <button class="btn btn-secondary" id="btn2">Tính Tiền Điện</button>
+      <div class="bg-secondary p-3 text-white" id="kq2"></div>
+    </div>
+    <div class="container mt-3">
+      <h2>Tính Thuế Thu Nhập Cá Nhân</h2>
+      <div class="form__top">
+        <div class="form-group">
+          <label for=""></label>
+          <input
+            type="text"
+            class="form-control"
+            name=""
+            id="hoTenTinhThue"
+            aria-describedby="helpId"
+            placeholder="Nhập Họ và Tên..."
+          />
+        </div>
+        <div class="form-group">
+          <label for=""></label>
+          <input
+            type="number"
+            class="form-control"
+            name=""
+            id="thuNhapMotNam"
+            aria-describedby="helpId"
+            placeholder="Thu nhập một năm"
+          />
+        </div>
+        <div class="form-group">
+          <label for=""></label>
+          <input
+            type="number"
+            class="form-control"
+            name=""
+            id="soNguoiPhuThuoc"
+            aria-describedby="helpId"
+            placeholder="Số người phụ thuộc"
+          />
+        </div>
+      </div>
+      <button class="btn btn-success" id="btn3">Tính Thuế</button>
+      <div class="p-3 bg-success text-white" id="kq3"></div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

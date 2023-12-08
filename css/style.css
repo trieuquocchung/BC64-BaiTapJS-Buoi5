@@ -1,0 +1,31 @@
+/* Bài Tập 1 */
+.form-group {
+  width: 230px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.form__top {
+  display: flex;
+}
+
+.form__bottom {
+  display: flex;
+}
+
+button {
+  margin: 20px 0 20px 20px;
+}
+
+.bg-primary {
+  margin-left: 20px;
+}
+
+/* Bài Tập 2 */
+.bg-secondary {
+  margin-left: 20px;
+}
+
+.bg-success {
+  margin-left: 20px;
+}
